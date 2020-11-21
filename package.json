@@ -13,6 +13,7 @@
     "gulp-markdown": "^5.1.0"
   },
   "scripts": {
-    "build": "gulp build"
+    "build": "gulp build",
+    "prebuild": "gulp prebuild"
   }
 }
