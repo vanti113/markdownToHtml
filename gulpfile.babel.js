@@ -20,3 +20,4 @@ const markToHtml = () =>
 const cleanUp = () => del(routes.md_route);
 
 export const build = gulp.series([saveClasses, markToHtml, cleanUp]);
+export const prebuild = gulp.series([markToHtml]);
